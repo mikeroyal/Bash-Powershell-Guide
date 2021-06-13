@@ -3,24 +3,31 @@
   <br />
 </h1>
 
+A guide covering Bash/PowerShell scripting languages including the applications and tools that will make you a better and more efficient Bash/PowerShell developer.
+
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
 # Table of Contents
 
-1. [Bash/PowerShell Learning Resources](https://github.com/mikeroyal/Bash-PowerShell-Guide#bash-powershell-learning-resources)
+1. [Bash/PowerShell Learning Resources](https://github.com/mikeroyal/Bash-PowerShell-Guide#bashpowershell-learning-resources)
 
-2. [Bash/PowerShell Tools, Libraries, and Frameworks](https://github.com/mikeroyal/Bash-PowerShell-Guide#bash-powershell-tools-libraries-and-frameworks)
+2. [Bash/PowerShell Tools, Libraries, and Frameworks](https://github.com/mikeroyal/Bash-PowerShell-Guide#bashpowershell-tools-libraries-and-frameworks)
 
 3. [DevOps Tools Integration](https://github.com/mikeroyal/Bash-PowerShell-Guide#devops-tools-intgeration)
 
-4. [Azure Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#azure-development)
+4. [Kubernetes](https://github.com/mikeroyal/Bash-PowerShell-Guide#kubernetes)
 
-5. [AWS Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#aws-development)
+5. [Docker](https://github.com/mikeroyal/Bash-PowerShell-Guide#docker)
 
-6. [Google Cloud Platform Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#google-cloud-platform-development)
+6. [Azure Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#azure-development)
 
-7. [VMware Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#vmware-development)
+7. [AWS Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#aws-development)
 
+8. [Google Cloud Platform Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#google-cloud-platform-development)
+
+9. [VMware Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#vmware-development)
+
+10. [Oracle Cloud Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#oracle-cloud-development)
 
  <p align="center">
  <img src="https://user-images.githubusercontent.com/45159366/121819669-39d3f780-cc43-11eb-89c0-c9878d66bde7.png">
@@ -316,6 +323,205 @@
 [Jira](https://www.atlassian.com/software/jira) is a proprietary issue tracking product developed by Atlassian that allows bug tracking and agile project management.
 
 [Pivotal Tracker](https://www.pivotaltracker.com/) is the agile project management tool of choice for developers around the world for real-time collaboration around a shared, prioritized backlog.
+
+# Kubernetes
+
+[Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
+
+[Kubernetes (K8s)](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/45159366/105645195-db9ea780-5e4e-11eb-8357-fb38b2f06d74.png">
+
+**Building Highly-Availability(HA) Clusters with kubeadm. Source: [Kubernetes.io](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/), 2020**
+</p>
+
+## Kubernetes Tools and Frameworks
+
+[Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/) is a managed, production-ready environment for running containerized applications.
+
+[Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/services/kubernetes-service/) is serverless Kubernetes, with a integrated continuous integration and continuous delivery (CI/CD) experience, and enterprise-grade security and governance. Unite your development and operations teams on a single platform to rapidly build, deliver, and scale applications with confidence.
+
+[Amazon EKS](https://docs.aws.amazon.com/eks/latest/userguide/what-is-eks.html) is a tool that runs Kubernetes control plane instances across multiple Availability Zones to ensure high availability.
+
+[AWS Controllers for Kubernetes (ACK)](https://aws.amazon.com/blogs/containers/aws-controllers-for-kubernetes-ack/) is a new tool that lets you directly manage AWS services from Kubernetes. ACK makes it simple to build scalable and highly-available Kubernetes applications that utilize AWS services.
+
+[Container Engine for Kubernetes (OKE)](https://www.oracle.com/cloud-native/container-engine-kubernetes/) is an Oracle-managed container orchestration service that can reduce the time and cost to build modern cloud native applications. Unlike most other vendors, Oracle Cloud Infrastructure provides Container Engine for Kubernetes as a free service that runs on higher-performance, lower-cost compute.
+
+[Anthos](https://cloud.google.com/anthos/docs/concepts/overview) is a modern application management platform that provides a consistent development and operations experience for cloud and on-premises environments.
+
+[Red Hat Openshift](https://www.openshift.com/) is a fully managed Kubernetes platform that provides a foundation for on-premises, hybrid, and multicloud deployments.
+
+[OKD](https://okd.io/) is a community distribution of Kubernetes optimized for continuous application development and multi-tenant deployment. OKD adds developer and operations-centric tools on top of Kubernetes to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams.
+
+[Odo](https://odo.dev/) is a fast, iterative, and straightforward CLI tool for developers who write, build, and deploy applications on Kubernetes and OpenShift.
+
+[Kata Operator](https://github.com/openshift/kata-operator) is an operator to perform lifecycle management (install/upgrade/uninstall) of [Kata Runtime](https://katacontainers.io/) on Openshift as well as Kubernetes cluster.
+
+[Thanos](https://thanos.io/) is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
+
+[OpenShift Hive](https://github.com/openshift/hive) is an operator which runs as a service on top of Kubernetes/OpenShift. The Hive service can be used to provision and perform initial configuration of OpenShift 4 clusters.
+
+[Rook](https://rook.io/) is a tool that turns distributed storage systems into self-managing, self-scaling, self-healing storage services. It automates the tasks of a storage administrator: deployment, bootstrapping, configuration, provisioning, scaling, upgrading, migration, disaster recovery, monitoring, and resource management.
+
+[VMware Tanzu](https://tanzu.vmware.com/tanzu) is a centralized management platform for consistently operating and securing your Kubernetes infrastructure and modern applications across multiple teams and private/public clouds.
+
+[Kubespray](https://kubespray.io/) is a tool that combines Kubernetes and Ansible to easily install Kubernetes clusters that can be deployed on [AWS](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/aws.md), GCE, [Azure](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/azure.md), [OpenStack](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/openstack.md), [vSphere](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/vsphere.md), [Packet](https://github.com/kubernetes-sigs/kubespray/blob/master/docs/packet.md) (bare metal), Oracle Cloud Infrastructure (Experimental), or Baremetal.
+
+[KubeInit](https://github.com/kubeinit/kubeinit) provides Ansible playbooks and roles for the deployment and configuration of multiple Kubernetes distributions.
+
+[Rancher](https://rancher.com/) is a complete software stack for teams adopting containers. It addresses the operational and security challenges of managing multiple Kubernetes clusters, while providing DevOps teams with integrated tools for running containerized workloads.
+
+[K3s](https://github.com/rancher/k3s) is a highly available, certified Kubernetes distribution designed for production workloads in unattended, resource-constrained, remote locations or inside IoT appliances.
+
+[Helm](https://helm.sh/) is a Kubernetes Package Manager tool that makes it easier to install and manage Kubernetes applications.
+
+[Knative](https://knative.dev/) is a Kubernetes-based platform to build, deploy, and manage modern serverless workloads. Knative takes care of the operational overhead details of networking, autoscaling (even to zero), and revision tracking.
+
+[KubeFlow](https://www.kubeflow.org/) is a tool dedicated to making deployments of machine learning (ML) workflows on Kubernetes simple, portable and scalable.
+
+[Etcd](https://etcd.io/) is a distributed key-value store that provides a reliable way to store data that needs to be accessed by a distributed system or cluster of machines. Etcd is used as the backend for service discovery and stores cluster state and configuration for Kubernetes.
+
+[OpenEBS](https://openebs.io/) is a Kubernetes-based tool to create stateful applications using Container Attached Storage.
+
+[Container Storage Interface (CSI)](https://www.architecting.it/blog/container-storage-interface/) is an API that lets container orchestration platforms like Kubernetes seamlessly communicate with stored data via a plug-in.
+
+[MicroK8s](https://microk8s.io/) is a tool that delivers the full Kubernetes experience. In a Fully containerized deployment with compressed over-the-air updates for ultra-reliable operations. It is supported on Linux, Windows, and MacOS.
+
+[Charmed Kubernetes](https://ubuntu.com/kubernetes/features) is a well integrated, turn-key, conformant Kubernetes platform, optimized for your multi-cloud environments developed by Canonical.
+
+[Grafana Kubernetes App](https://grafana.com/grafana/plugins/grafana-kubernetes-app) is a toll that allows you to monitor your Kubernetes cluster's performance. It includes 4 dashboards, Cluster, Node, Pod/Container and Deployment. It allows for the automatic deployment of the required Prometheus exporters and a default scrape config to use with your in cluster Prometheus deployment.
+
+[KubeEdge](https://kubeedge.io/en/) is an open source system for extending native containerized application orchestration capabilities to hosts at Edge.It is built upon kubernetes and provides fundamental infrastructure support for network, app. deployment and metadata synchronization between cloud and edge.
+
+[Lens](https://k8slens.dev/)  is the most powerful IDE for people who need to deal with Kubernetes clusters on a daily basis. It has support for MacOS, Windows and Linux operating systems.
+
+[kind](https://kind.sigs.k8s.io/) is a tool for running local Kubernetes clusters using Docker container “nodes”. It was primarily designed for testing Kubernetes itself, but may be used for local development or CI.
+
+[Flux CD](https://fluxcd.io/) is a tool that automatically ensures that the state of your Kubernetes cluster matches the configuration you've supplied in Git. It uses an operator in the cluster to trigger deployments inside Kubernetes, which means that you don't need a separate continuous delivery tool.
+
+## Kubernetes Learning Resources
+
+[Getting Kubernetes Certifications](https://training.linuxfoundation.org/certification/catalog/?_sft_technology=kubernetes)
+
+[Getting started with Kubernetes on AWS](https://aws.amazon.com/kubernetes/)
+
+[Kubernetes on Microsoft Azure](https://azure.microsoft.com/en-us/topic/what-is-kubernetes/)
+
+[Intro to Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/kubernetes-dashboard)
+
+[Getting started with Google Cloud](https://cloud.google.com/learn/what-is-kubernetes)
+
+[Getting started with Kubernetes on Red Hat](https://www.redhat.com/en/topics/containers/what-is-kubernetes)
+
+[Getting started with Kubernetes on IBM](https://www.ibm.com/cloud/learn/kubernetes)
+
+[YAML basics in Kubernetes](https://developer.ibm.com/technologies/containers/tutorials/yaml-basics-and-usage-in-kubernetes/)
+
+[Elastic Cloud on Kubernetes](https://www.elastic.co/elastic-cloud-kubernetes)
+
+[Docker and Kubernetes](https://www.docker.com/products/kubernetes)
+
+[Deploy a model to an Azure Kubernetes Service cluster](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-azure-kubernetes-service?tabs=python)
+
+[Simplify Machine Learning Inference on Kubernetes with Amazon SageMaker Operators](https://aws.amazon.com/blogs/machine-learning/simplify-machine-learning-inference-on-kubernetes-with-amazon-sagemaker-operators/)
+
+[Running Apache Spark on Kubernetes](http://spark.apache.org/docs/latest/running-on-kubernetes.html)
+
+[Kubernetes Across VMware vRealize Automation](https://blogs.vmware.com/management/2019/06/kubernetes-across-vmware-cloud-automation-services.html)
+
+[VMware Tanzu Kubernetes Grid](https://tanzu.vmware.com/kubernetes-grid)
+
+[All the Ways VMware Tanzu Works with AWS](https://tanzu.vmware.com/content/blog/all-the-ways-vmware-tanzutm-works-with-aws)
+
+[VMware Tanzu Education](https://tanzu.vmware.com/education)
+
+[Using Ansible in a Cloud-Native Kubernetes Environment](https://www.ansible.com/blog/how-useful-is-ansible-in-a-cloud-native-kubernetes-environment)
+
+[Managing Kubernetes (K8s) objects with Ansible](https://docs.ansible.com/ansible/latest/collections/community/kubernetes/k8s_module.html)
+
+[Setting up a Kubernetes cluster using Vagrant and Ansible](https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/)
+
+[Running MongoDB with Kubernetes](https://www.mongodb.com/kubernetes)
+
+[Kubernetes Fluentd](https://docs.fluentd.org/v/0.12/articles/kubernetes-fluentd)
+
+[Understanding the new GitLab Kubernetes Agent](https://about.gitlab.com/blog/2020/09/22/introducing-the-gitlab-kubernetes-agent/)
+
+[Kubernetes Contributors](https://www.kubernetes.dev/)
+
+[KubeAcademy from VMware](https://kube.academy/)
+
+# Docker
+[Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/113521410-2e32c900-954e-11eb-8311-065fa0099546.png">
+  <br />
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/113521413-2ffc8c80-954e-11eb-9d19-b9c996bc524b.png">
+  <br />
+</p>
+
+**Container Architecture. Source: [Containerd.io](https://containerd.io)**
+
+## Docker Learning Resources
+
+[Docker Training Program](https://www.docker.com/dockercon/training)
+
+[Docker Certified Associate (DCA) certification](https://training.mirantis.com/dca-certification-exam/)
+
+[Docker Documentation | Docker Documentation](https://docs.docker.com/)
+
+[The Docker Workshop](https://courses.packtpub.com/courses/docker)
+
+[Docker Courses on Udemy](https://www.udemy.com/topic/docker/)
+
+[Docker Courses on Coursera](https://www.coursera.org/courses?query=docker)
+
+[Docker Courses on edX](https://www.edx.org/learn/docker)
+
+[Docker Courses on Linkedin Learning](https://www.linkedin.com/learning/topics/docker)
+
+## Docker Tools
+
+[Docker](https://www.docker.com/) is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly working in collaboration with cloud, Linux, and Windows vendors, including Microsoft.
+
+[Docker Enterprise](https://www.mirantis.com/software/docker/docker-enterprise/) is a subscription including software, supported and certified container platform for CentOS, Red Hat Enterprise Linux (RHEL), Ubuntu, SUSE Linux Enterprise Server (SLES), Oracle Linux, and Windows Server 2016, as well as for cloud providers AWS and Azure. In [November 2019 Docker's Enterprise Platform business was acquired by Mirantis](https://www.mirantis.com/company/press-center/company-news/mirantis-acquires-docker-enterprise/).
+
+[Docker Desktop](https://www.docker.com/products/docker-desktop) is an application for MacOS and Windows machines for the building and sharing of containerized applications and microservices. Docker Desktop delivers the speed, choice and security you need for designing and delivering containerized applications on your desktop. Docker Desktop includes Docker App, developer tools, Kubernetes and version synchronization to production Docker Engines.
+
+[Docker Hub](https://hub.docker.com/) is the world's largest library and community for container images Browse over 100,000 container images from software vendors, open-source projects, and the community.
+
+[Docker Compose](https://docs.docker.com/compose/) is a tool that was developed to help define and share multi-container applications. With Docker Compose, you can create a YAML file to define the services and with a single command, can spin everything up or tear it all down.
+
+[Docker Swarm](https://docs.docker.com/engine/swarm/) is a Docker-native clustering system swarm is a simple tool which controls a cluster of Docker hosts and exposes it as a single "virtual" host.
+
+[Dockerfile](https://docs.docker.com/engine/reference/builder/) is a text document that contains all the commands a user could call on the command line to assemble an image. Using docker build users can create an automated build that executes several command-line instructions in succession.
+
+[Docker Containers](https://www.docker.com/resources/what-container) is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.
+
+[Docker Engine](https://www.docker.com/products/container-runtime) is a container runtime that runs on various Linux (CentOS, Debian, Fedora, Oracle Linux, RHEL, SUSE, and Ubuntu) and Windows Server operating systems. Docker creates simple tooling and a universal packaging approach that bundles up all application dependencies inside a container which is then run on Docker Engine.
+
+[Docker Images](https://docs.docker.com/engine/reference/commandline/images/) is a lightweight, standalone, executable package of software that includes everything needed to run an application: code, runtime, system tools, system libraries and settings. Images have intermediate layers that increase reusability, decrease disk usage, and speed up docker build by allowing each step to be cached. These intermediate layers are not shown by default. The SIZE is the cumulative space taken up by the image and all its parent images.
+
+[Docker Network](https://docs.docker.com/engine/reference/commandline/network/) is a that displays detailed information on one or more networks.
+
+[Docker Daemon](https://docs.docker.com/config/daemon/) is a service started by a system utility, not manually by a user. This makes it easier to automatically start Docker when the machine reboots. The command to start Docker depends on your operating system. Currently, it only runs on Linux because it depends on a number of Linux kernel features, but there are a few ways to run Docker on MacOS and Windows as well by configuring the operating system utilities.
+
+[Docker Storage](https://docs.docker.com/storage/storagedriver/select-storage-driver/) is a driver controls how images and containers are stored and managed on your Docker host.
+
+[Kitematic](https://kitematic.com/) is a simple application for managing Docker containers on Mac, Linux and Windows letting you control your app containers from a graphical user interface (GUI).
+
+[Open Container Initiative](https://opencontainers.org/about/overview/) is an open governance structure for the express purpose of creating open industry standards around container formats and runtimes.
+
+[Buildah](https://buildah.io/) is a command line tool to build Open Container Initiative (OCI) images. It can be used with Docker, Podman, Kubernetes.
+
+[Podman](https://podman.io/) is a daemonless, open source, Linux native tool designed to make it easy to find, run, build, share and deploy applications using Open Containers Initiative (OCI) Containers and Container Images. Podman provides a command line interface (CLI) familiar to anyone who has used the Docker Container Engine.
+
+[Containerd](https://containerd.io) is a daemon that manages the complete container lifecycle of its host system, from image transfer and storage to container execution and supervision to low-level storage to network attachments and beyond. It is available for Linux and Windows.
 
 # Azure Development
 [Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
@@ -992,6 +1198,169 @@ Workspace ONE](https://www.vmware.com/products/workspace-one.html) is an intelli
 [VMware Blockchain](https://www.vmware.com/products/blockchain.html) is a decentralized trust platform with support for leading execution frameworks.
 
 [VMware Learning Platform](https://cloud.vmware.com/learning-platform) is a SaaS platform that delivers hands-on virtual IT labs to anyone on the planet at cloud scale.
+
+# Oracle Cloud Development
+[Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/116304999-02bf8a80-a758-11eb-9e44-a9662805a01f.png">
+  <br />
+</p>
+
+<img src="https://user-images.githubusercontent.com/45159366/116305017-094e0200-a758-11eb-96d5-d5436b243424.png">
+
+**Oracle Database Offerings in Oracle Cloud Infrastructure. Source: [Oracle](https://blogs.oracle.com/cloud-infrastructure/oracle-database-offerings-in-oracle-cloud-infrastructure)**
+
+# Oracle Cloud Learning Resources
+
+[Oracle Cloud Infrastructure (OCI)](https://www.oracle.com/cloud/) is an IaaS that delivers on-premises, high-performance computing power to run cloud native and enterprise company’s IT workloads. OCI provides real-time elasticity for enterprise applications by combining Oracle's autonomous services, integrated security, and serverless compute.
+
+[Oracle Cloud Portal](https://docs.oracle.com/en/cloud/)
+
+[Oracle Cloud Training and Certification](https://www.oracle.com/education/)
+
+[Cloud Training for Oracle Cloud Infrastructure](https://www.oracle.com/cloud/iaas/training/)
+
+[Enterprise Performance Management (EPM) Cloud - Training](https://docs.oracle.com/en/cloud/saas/epm-cloud/training.html)
+
+[Top Oracle Cloud Courses on Udemy](https://www.udemy.com/topic/oracle-cloud/)
+
+[Oracle Integration Cloud Services (OIC) - Oracle ICS on Udemy](https://www.udemy.com/course/oic-oracle-integration-cloud/)
+
+[Top Oracle Cloud Courses on Coursera](https://www.coursera.org/courses?query=oracle)
+
+
+## Oracle Cloud Tools
+
+[Oracle Cloud Command Line Interface (CLI)](https://docs.oracle.com/en-us/iaas/Content/API/Concepts/cliconcepts.htm#Command_Line_Interface_CLI) is a comman line tool that provides the same core capabilities as the Oracle Cloud Infrastructure Console and provides additional commands that can extend the Console's functionality. The CLI is convenient for developers or anyone who prefers the command line to a GUI.
+
+[PL/SQL SDK The Oracle Cloud Infrastructure SDK for PL/SQL](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/plsqlsdk.htm#SDK_for_PLSQL) is a service that enables you to write code to manage Oracle Cloud Infrastructure resources. The latest version of the PL/SQL SDK is pre-installed by Oracle for all Autonomous Databases using shared Exadata infrastructure.
+
+[Container Engine for Kubernetes (OKE)](https://docs.oracle.com/iaas/Content/ContEng/Concepts/contengoverview.htm) is a reliable build, deploy, and manage cloud-native containerized applications. You specify the compute resources that your applications require, and Container Engine for Kubernetes provisions them on Oracle Cloud Infrastructure in an existing tenancy.
+
+[Oracle Analytics Cloud](https://www.oracle.com/business-analytics/analytics-cloud.html) is a service embedded with machine learning, which helps organizations to discover unique insights faster with automation and intelligence.
+
+[Oracle Big Data Service](https://www.oracle.com/big-data/big-data-service/) is a service that makes it easy for customers to deploy Hadoop clusters of all sizes, with VM shapes ranging from 1 OCPU to a dedicated bare metal environment. Customers choose between high-performance NVmE storage or cost-effective block storage, and can grow or shrink their clusters.
+
+[Oracle Big Data SQL Cloud Service](https://www.oracle.com/big-data/big-data-sql/) is a service that enables organizations to immediately analyze data across Apache Hadoop, NoSQL and Oracle Database leveraging their existing SQL skills, security policies and applications with extreme performance. From simplifying data science efforts to unlocking data lakes, Big Data SQL makes the benefits of Big Data available to the largest group of end users possible.
+
+[Oracle Cloud Infrastructure (OCI) Data Catalog](https://www.oracle.com/big-data/data-catalog/) is a metadata management service that helps data professionals discover data and support data governance. Designed specifically to work well with the Oracle ecosystem, it provides an inventory of assets, a business glossary, and a common metastore for data lakes.
+
+[Oracle Cloud Infrastructure (OCI) Data Flow](https://www.oracle.com/big-data/data-flow/) is a fully managed Apache Spark service to perform processing tasks on extremely large data sets without infrastructure to deploy or manage. This enables rapid application delivery because developers can focus on app development, not infrastructure management.
+
+[Oracle Cloud Streaming service](https://www.oracle.com/cloud-native/streaming/) is a real-time, serverless, Apache Kafka-compatible event streaming platform for developers and data scientists. Streaming is tightly integrated with Oracle Cloud Infrastructure (OCI), Database, GoldenGate, and Integration Cloud. The service also provides out-of-the-box integrations for hundreds of third-party products across categories such as DevOps, databases, big data, and SaaS applications.
+
+[Oracle Essbase](https://www.oracle.com/business-analytics/essbase.html) is a service that gives organizations the power to rapidly generate insights from multidimensional data sets using what-if analysis, and data visualization tools.
+
+[Oracle APEX Application Development (APEX Service)](https://www.oracle.com/application-development/apex/) is a fully managed, low-code application development platform for building and deploying modern, data-driven applications in Oracle Cloud. Business users and application developers can create enterprise applications 38X faster than coding—without having to learn complex web technologies.
+
+[Oracle Content and Experience](https://www.oracle.com/content-experience/) is a service to drive consistent, multichannel experiences with a market-first, smart authoring platform and an API-first approach that separates content delivery from content creation. Oracle Content and Experience solutions dramatically reduce time to market and process complexity across your entire organization.
+
+[Oracle MySQL Database Service](https://www.oracle.com/mysql/) is a fully managed database service that lets developers quickly develop and deploy secure, cloud native applications using the world’s most popular open source database. MySQL Database Service is the only MySQL cloud service with an integrated, high-performance analytics engine—HeatWave—that enables customers to run sophisticated analytics directly against their operational MySQL databases, eliminating the need for complex, time-consuming, and expensive data movement and integration with a separate analytics database.
+
+[Oracle NoSQL Database Cloud Service](https://www.oracle.com/database/nosql-cloud.html) is a service that makes it easy for developers to build applications using document, columnar and key-value database models, delivering predictable single digit millisecond response times with data replication for high availability.
+
+[Oracle Visual Builder](https://www.oracle.com/application-development/visual-builder/) is a service that quickly turns your ideas into powerful apps that help run your business. Oracle Visual Builder lets you create and deploy web, mobile, and progressive web interfaces.
+
+[Oracle Visual Builder Studio](https://www.oracle.com/application-development/visual-builder-studio/) is a service that rapidly create and extend applications using a visual development environment with integrated agile and collaborative development, version control, and continuous delivery automation.
+
+[Oracle API gateway](https://www.oracle.com/cloud-native/api-gateway/) is a fully managed service. There are no servers to provision and maintain.
+
+[Oracle Cloud Functions](https://www.oracle.com/cloud-native/functions/) is a serverless platform that lets developers create, run, and scale applications without managing any infrastructure. Functions integrate with Oracle Cloud Infrastructure, platform services and SaaS applications. Because Functions is based on the open source Fn Project, developers can create applications that can be easily ported to other cloud and on-premises environments.
+
+[Oracle Cloud Infrastructure Container Registry](https://www.oracle.com/cloud-native/container-registry/) is an open standards-based, Oracle-managed Docker registry service for securely storing and sharing container images. Engineers can easily push and pull Docker images with the familiar Docker Command Line Interface (CLI) and API. To support container lifecycles, Registry works with Container Engine for Kubernetes, Identity and Access Management (IAM), Visual Builder Studio, and third-party developer and DevOps tools.
+
+[Oracle Cloud Infrastructure Events Service](https://www.oracle.com/cloud-native/events-service/) is a service that tracks resource changes using events that comply with the Cloud Native Computing Foundation (CNCF) CloudEvents standard. Developers can respond to changes in real-time by triggering code with Functions, writing to Streaming, or sending alerts using Notifications.
+
+[Oracle Roving Edge Infrastructure](https://www.oracle.com/cloud/roving-edge-infrastructure/) is a service that accelerates deployment of cloud workloads outside the data center. Ruggedized Oracle Roving Edge Devices (Oracle REDs) deliver cloud computing and storage services at the edge of networks and in disconnected locations, allowing faster processing close to the data source and enabling faster insights into the data.
+
+[Oracle Blockchain Platform Cloud Service](https://www.oracle.com/application-development/cloud-services/blockchain-platform/) is a service to reliably share trusted data with multiple parties using Oracle Blockchain Platform Cloud Service.
+
+[Oracle Mobile Hub](https://www.oracle.com/application-development/cloud-services/mobile/) is a service to quickly build, deploy, and manage mobile apps that connect to Oracle ERP, HCM, CX or any third-party system, on-premise or in the cloud.
+
+[Oracle Bare Metal Servers](https://www.oracle.com/cloud/compute/bare-metal.html) is a service that provides customers with isolation, visibility, and control with a dedicated server. The servers support applications that require high core counts, large amounts of memory, and high bandwidth - scaling up to 128 cores (the largest in the industry), 2 TB of RAM, and up to 1 PB of block storage.
+
+[Oracle Cloud Infrastructure- Compute](https://www.oracle.com/cloud/compute/) is a service that provides secure, elastic, compute capacity in the cloud that ranges from virtual machines and bare metal servers to HPC, GPU, container orchestration, and management.
+
+[Oracle Cloud HPC solutions](https://www.oracle.com/cloud/hpc/) is a service that combines the performance of on-premises solutions with the elasticity and consumption-based costs of the cloud, giving customers the option to either migrate away from, or supplement, capital intensive on-premises systems. The Oracle Cloud Infrastructure HPC platform includes bare metal compute instances, low latency cluster networks for RDMA, high-performance storage solutions and filesystems, network traffic isolation, and the tools you need to automate and run jobs seamlessly in the cloud.
+
+[Oracle GPU–Virtual Machines and Bare Metal](https://www.oracle.com/cloud/compute/gpu.html) is a high-performance computing platform for demanding applications that run sophisticated algorithms. Applications that rely on machine learning, image processing, and massively parallel high-performance computing jobs benefit from running GPUs as they allow companies solve complex problems and innovate faster.
+
+[Oracle Cloud Virtual Machines](https://www.oracle.com/cloud/compute/virtual-machines/) is a service that provides secure, elastic, compute capacity in the cloud for workloads ranging from small development projects to large-scale, global applications like real-time communication platforms. A variety of VM shapes are available, including the new E3.Flex shape, which lets customers specify the precise number of cores (up to 64) and corresponding memory (up to 64 GB per core) to match workload requirements.
+
+[Oracle Autonomous Data Warehouse](https://www.oracle.com/autonomous-database/autonomous-data-warehouse/) is a cloud data warehouse service that eliminates all the complexities of operating a data warehouse, securing data, and developing data-driven applications. It automates provisioning, configuring, securing, tuning, scaling, and backing up of the data warehouse.  It includes tools for self-service data loading, data transformations, business models, automatic insights, and built-in converged database capabilities that enable simpler queries across multiple data types and machine learning analysis.
+
+[Oracle Autonomous JSON Database](https://www.oracle.com/autonomous-database/autonomous-json-database/) is a cloud document database service that makes it simple to develop JSON-centric applications. It features simple document APIs, serverless scaling, high performance ACID transactions, comprehensive security, and low pay-per-use pricing.
+
+[Oracle Autonomous Transaction Processing](https://www.oracle.com/autonomous-database/autonomous-transaction-processing/) is a cloud database service that eliminates the complexity of operating and securing high-performance databases. The service automates provisioning, configuring, tuning, scaling, patching, encrypting, and repairing of databases. Additionally, the service includes all of Oracle’s advanced database options, such as real application clusters (RAC), multitenant, partitioning, in-memory, advanced security, and advanced compression.
+
+[Oracle Exadata Cloud@Customer X8M](https://www.oracle.com/engineered-systems/exadata/cloud-at-customer/?bcid=5195990601001) is the simplest way to migrate your Oracle Databases to the cloud. It helps meet your requirements for strict data sovereignty and security by delivering high-performance Exadata Cloud Service capabilities behind your data center’s firewall.
+
+[Oracle Cloud Infrastructure (OCI) GoldenGate](https://www.oracle.com/integration/goldengate/) is a managed service providing a real-time data mesh platform, which uses replication to keep data highly available, and enabling real-time analysis.
+
+[Oracle Cloud Infrastructure Data Integration](https://www.oracle.com/integration/oracle-cloud-infrastructure-data-integration/) is a service to easily combine and transform data for data science and analytics. Design code-free data flows into data lakes and data marts.
+
+[Oracle Service-Oriented Architecture (SOA)](https://www.oracle.com/integration/soa/) is a service that offers the ability to move existing, on-premises integrations and composite applications to the cloud as-is with Bring Your Own License (BYOL), and the ability to create modern integrations with Oracle Integration.
+
+[Oracle Cloud Infrastructure Audit service](https://docs.oracle.com/en-us/iaas/Content/Audit/Concepts/auditoverview.htm) is a service that automatically records calls to all supported Oracle Cloud Infrastructure public application programming interface (API) endpoints as log events. Currently, all services support logging by Audit. Object Storage service supports logging for bucket-related events, but not for object-related events. Log events recorded by the Audit service include API calls made by the Oracle Cloud Infrastructure Console, Command Line Interface (CLI), Software Development Kits (SDK), your own custom clients, or other Oracle Cloud Infrastructure services.
+
+[Oracle Cloud Cost Analysis](https://docs.oracle.com/en-us/iaas/Content/GSG/Concepts/costs.htm#Checking_Your_Balance_and_Usage) is a visualization tool that helps you track and optimize your Oracle Cloud Infrastructure spending, allows you to generate charts, and download accurate, reliable tabular reports of aggregated cost data on your Oracle Cloud Infrastructure consumption.
+
+[Oracle Cloud Infrastructure (OCI) Logging](https://www.oracle.com/devops/logging/) is a service built on open standards, OCI Logging is an intuitive, centralized platform for all types of logs, such as audit, infrastructure, database and applications, which are needed for DevOps and security compliance. Oracle Cloud Infrastructure (OCI) Logging uses the Cloud Native Computing Foundation (CNCF) [fluentd]() agent for log ingestion and the CNCF CloudEvents standard for log events.
+
+[Oracle Cloud Infrastructure Logging Analytics](https://www.oracle.com/manageability/logging-analytics/) is a machine learning-based cloud service that monitors, aggregates, indexes, and analyzes all log data from on-premises and multicloud environments.
+
+[Oracle Cloud Infrastructure Monitoring](https://www.oracle.com/devops/monitoring/) is a service that helps helps organizations optimize the resource utilization and uptime of their infrastructure and applications. This service provides fine-grained, out-of-the-box metrics and dashboards, enabling DevOps, IT, and Site Reliability Engineers (SREs) with the real-time insights to respond to anomalies as they occur.
+
+[Oracle Cloud Infrastructure Notifications](https://www.oracle.com/devops/notifications/) is a highly available, low-latency publish/subscribe (pub/sub) service that sends alerts and messages to [Oracle Functions](https://www.oracle.com/cloud-native/functions/), email, SMS, and message delivery partners, including Slack, PagerDuty, and ServiceNow. This service integrates with [Oracle Identity and Access Management](https://www.oracle.com/cloud/security/cloud-services/identity-access-cloud.html) for secure access, and delivers each message, even during traffic bursts.
+
+[Oracle Cloud Resource Manager](https://www.oracle.com/devops/resource-manager/) is an Oracle-managed service that automates deployment and operations for all Oracle Cloud Infrastructure resources. Unlike Infrastructure-as-Code (IaC) offerings from other cloud vendors, the service is based on Terraform, a widely used, open source industry standard that allows DevOps engineers to develop and deploy their infrastructure anywhere.
+
+[Oracle Service Connector Hub](https://www.oracle.com/devops/service-connector-hub/) is a service that helps cloud engineers manage and move data between Oracle Cloud Infrastructure (OCI) services and from OCI to third-party services. Unlike competing cloud offerings, Service Connector Hub provides a central place for describing, executing and monitoring data movements between services, such as Logging, [Object Storage](https://www.oracle.com/cloud/storage/object-storage.html), [Streaming](https://www.oracle.com/cloud-native/streaming/), [Logging Analytics](https://www.oracle.com/manageability/logging-analytics/) and [Monitoring](https://www.oracle.com/devops/monitoring/). It can also trigger [Functions](https://www.oracle.com/cloud-native/functions/) for lightweight data processing and [Notifications](https://www.oracle.com/devops/notifications/) to set up alerts.
+
+[Oracle Domain Name System (DNS)](https://www.oracle.com/cloud/networking/dns/) is a distributed internet system that maps human-readable names (like www.Oracle.com) to IP addresses and serves as the first link in the customers’ digital supply chain.
+
+[Oracle Cloud Infrastructure Email Delivery](https://www.oracle.com/cloud/networking/email-delivery.html) is a service that helps organizations reach their intended audiences by enabling them to send bulk email with high rates of successful inbox placement.
+
+[Oarcle Cloud FastConnect](https://www.oracle.com/cloud/networking/fastconnect/) is a service that allows customers to connect directly to their Oracle Cloud Infrastructure (OCI) virtual cloud network via dedicated, private, high-bandwidth connections. Then, based on the amount of data, customers simply choose an appropriate port speed and pay a consistent, low price each month.
+
+[Oracle Health Checks](https://www.oracle.com/cloud/networking/health-checks.html) is a service that provides the ability to monitor and alert on the availability of any public-facing service hosted in Oracle Cloud Infrastructure. Additionally, Oracle Health Checks is fully integrated with the Oracle DNS Traffic Management service to enable automated detection of service failures and trigger DNS failovers to ensure continuity of service when needed.
+
+[Oracle Cloud Infrastructure (OCI) Flexible Load Balancing](https://www.oracle.com/cloud/networking/load-balancing/) is a service that enables customers to distribute web requests across a fleet of servers or automatically route traffic across fault domains, availability domains, or regions—yielding high availability and fault tolerance for any application or data source. The OCI Flexible Load Balancer primarily manages HTTP/HTTPS traffic and provides advanced routing features that distribute the requests based on the requests’ contents. While, the OCI Flexible Network Load Balancer performs at low latency, offering extreme performance.
+
+[Oracle Cloud Service Gateway](https://www.oracle.com/cloud/networking/service-gateway/) is a service that provides a customer’s on-premises network with private access to Oracle Cloud services. Once connected to your VCN, Service Gateway allows secure, private connectivity to Oracle Cloud services like compute instances, cloud storage, containers, and databases.
+
+[Oracle Cloud Infrastructure Traffic Management](https://www.oracle.com/cloud/networking/traffic-management.html) is a service that enables users to configure routing policies to serve intelligent responses to DNS queries. Oracle Traffic Management steering policies are used to steer DNS traffic across multiple public Oracle Cloud Infrastructure instances and other private and third-party assets.
+
+[Oracle virtual cloud networks (VCNs)](https://www.oracle.com/cloud/networking/virtual-cloud-network/) is a service that provides customizable and private cloud networks in Oracle Cloud Infrastructure (OCI). Similar to a traditional data center network, the VCN provides customers with complete control over their cloud networking environment.
+
+[Oracle Cloud Access Security Broker (CASB)](https://www.oracle.com/security/cloud-security/casb-cloud/) is a service to gain visibility and detect threats on the entire cloud stack for workloads and applications with Oracle CASB.
+
+[Oracle Cloud Guard](https://www.oracle.com/security/cloud-security/cloud-guard/) is a service to gain a unified view of cloud security posture across Oracle Cloud Infrastructure customer tenants. Oracle Cloud Guard detects misconfigured resources and insecure activity across tenants and provides security administrators with the visibility to triage and resolve cloud security issues.
+
+[Oracle Cloud Database security](https://www.oracle.com/security/database-security/) is a service that helps reduce the risk of a data breach and simplify compliance with database security solutions for encryption, key management, data masking, privileged user access controls, activity monitoring, and auditing.
+
+[Oracle Cloud Infrastructure Identity and Access Management](https://www.oracle.com/security/cloud-security/identity-access-cloud/) is a service to help control who has access to Oracle Cloud Infrastructure resources, what type of access they have, and to which specific resources using easy to define policies with logical groups of users and resources.
+
+[Oracle Identity Cloud Service](https://www.oracle.com/security/cloud-security/identity-cloud/) is a service that manages user access and entitlements across a wide range of cloud and on-premises applications and services using a cloud-native, identity as a service (IDaaS) platform.
+
+[Oracle Cloud Infrastructure Vault](https://www.oracle.com/security/cloud-security/key-management/) is a service that centrally manage and maintain control of the encryption keys that protect enterprise data and the secret credentials used to securely access resources.
+
+[Oracle Security Zones](https://www.oracle.com/security/cloud-security/security-zones/) is a service that automatically set up and enforce security policies for cloud compartments in Oracle Cloud Infrastructure. Oracle Security Zones includes a rich policy library and embed security best practices to enable cloud security posture management, so administrators can immediately ensure their compartments are secure.
+
+[Oracle Web Application Firewall (WAF)](https://www.oracle.com/security/cloud-security/web-application-firewall/) is a service that protects applications from malicious and unwanted internet traffic with a cloud-based, PCI-compliant, global web application firewall service.
+
+[Oracle Cloud Infrastructure (OCI) Archive Storage](https://www.oracle.com/cloud/storage/archive-storage.html) is a service to securely store any type of data in its native format. This cost-effective solution is highly durable and used for storing and managing encrypted data for long periods of time.
+
+[Oracle Cloud Block Volumes](https://www.oracle.com/cloud/storage/block-volumes.html) is a service that provides customers reliable, high-performance block storage designed to work with a range of virtual machines and bare metal instances. With built-in redundancy, Block Volumes are persistent and durable beyond the lifespan of a virtual machine and can scale to 1 PB per compute instance.
+
+[Oracle Cloud Infrastructure Data Transfer Appliance](https://www.oracle.com/cloud/storage/data-transfer.html) is a service that securely moves terabytes or petabytes data between on-premise data centers and the cloud. The service reduces data migration times from weeks or months to just hours and is available for data import to the cloud and data export from the cloud.
+
+[Oracle Cloud Infrastructure (OCI) File Storage](https://www.oracle.com/cloud/storage/file-storage.html) is a fully managed elastic file system built for the cloud that enables customers to migrate their enterprise workloads to the cloud. Every file system scales automatically to accommodate the growth of up to 8 exabytes. Also, File Storage also offers snapshot and clone capabilities to simplify business continuity for enterprise applications.
+
+[Oracle Cloud Infrastructure (OCI) Object Storage](https://www.oracle.com/cloud/storage/object-storage.html) is a service that enables customers to securely store any type of data in its native format.
+
+[Oracle Cloud Infrastructure (OCI) Storage Gateway](https://www.oracle.com/cloud/storage/storage-gateway.html) is a service that helps extend on-premises application data to Oracle Cloud. Integration with OCI Object Storage and Network File Storage (NFS) compliance make it easy to securely move files to and from Oracle Cloud. Data is encrypted both at rest and in-transit and built-in data integrity checks provides protection.
 
 
 ## Contribute
