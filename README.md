@@ -13,7 +13,7 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 
 2. [Bash/PowerShell Tools, Libraries, and Frameworks](https://github.com/mikeroyal/Bash-PowerShell-Guide#bashpowershell-tools-libraries-and-frameworks)
 
-3. [DevOps Tools Integration](https://github.com/mikeroyal/Bash-PowerShell-Guide#devops-tools-intgeration)
+3. [DevOps Tools Integration](https://github.com/mikeroyal/Bash-PowerShell-Guide#devops-tools-integration)
 
 4. [Kubernetes](https://github.com/mikeroyal/Bash-PowerShell-Guide#kubernetes)
 
