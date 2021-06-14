@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="https://user-images.githubusercontent.com/45159366/95128610-89564100-070e-11eb-83de-9697fb490886.png">
+ <img src="https://user-images.githubusercontent.com/45159366/121950775-ecbd5780-cd0e-11eb-81cf-de1e503e0723.png">
   <br />
 </h1>
 
@@ -30,14 +30,12 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 10. [Oracle Cloud Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#oracle-cloud-development)
 
  <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/121819669-39d3f780-cc43-11eb-89c0-c9878d66bde7.png">
+ <img src="https://user-images.githubusercontent.com/45159366/121950781-ed55ee00-cd0e-11eb-98e5-9816a77d4eb8.png">
   <br />
 </p>
 
 # Bash/PowerShell Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
-
-[Unix Shell](https://en.wikipedia.org/wiki/Unix_shell) is a command-line interpreter/shell that provides a user CLI for Unix-like operating systems such as MacOS.
 
 [Introduction to Bash Shell Scripting by Coursera](https://www.coursera.org/projects/introduction-to-bash-shell-scripting)
 
@@ -74,7 +72,7 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 
 [Bash](https://www.gnu.org/software/bash/) is the GNU Project's shell(Bourne Again SHell), which is an sh-compatible shell that integrates together useful features from the Korn shell (ksh) and the C shell (csh).
 
-[Zsh](https://www.zsh.org/) is a shell designed for interactive use, although it is also a powerful scripting language. It comes with features of Bash, ksh, and tcsh.
+[Zsh](https://www.zsh.org/) is a shell designed for interactive use, although it is also a powerful scripting language. It comes with features of Bash, ksh, and tcsh. 
 
 [Oh My Zsh](https://ohmyz.sh/) is a delightful, open source, community-driven framework for managing your Zsh configuration. It comes bundled with thousands of helpful functions, helpers, plugins, themes, and a few other helpful things.
 
