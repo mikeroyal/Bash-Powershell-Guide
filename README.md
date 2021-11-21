@@ -1,6 +1,7 @@
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/121950775-ecbd5780-cd0e-11eb-81cf-de1e503e0723.png">
   <br />
+ Bash/PowerShell Guide
 </h1>
 
 A guide covering Bash/PowerShell scripting languages including the applications and tools that will make you a better and more efficient Bash/PowerShell developer.
