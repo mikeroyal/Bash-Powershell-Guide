@@ -34,7 +34,7 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 9. [VMware Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#vmware-development)
 
 10. [Oracle Cloud Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#oracle-cloud-development)
-11. 
+
 
 # Bash/PowerShell Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
