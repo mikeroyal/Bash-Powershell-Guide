@@ -8,6 +8,11 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 
 **Note: You can easily convert this markdown file to a PDF in [VSCode](https://code.visualstudio.com/) using this handy extension [Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf).**
 
+ <p align="center">
+ <img src="https://user-images.githubusercontent.com/45159366/121950781-ed55ee00-cd0e-11eb-98e5-9816a77d4eb8.png">
+  <br />
+</p>
+
 # Table of Contents
 
 1. [Bash/PowerShell Learning Resources](https://github.com/mikeroyal/Bash-PowerShell-Guide#bashpowershell-learning-resources)
@@ -29,11 +34,7 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 9. [VMware Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#vmware-development)
 
 10. [Oracle Cloud Development](https://github.com/mikeroyal/Bash-PowerShell-Guide#oracle-cloud-development)
-
- <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/121950781-ed55ee00-cd0e-11eb-98e5-9816a77d4eb8.png">
-  <br />
-</p>
+11. 
 
 # Bash/PowerShell Learning Resources
 [Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
