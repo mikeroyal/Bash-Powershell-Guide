@@ -527,7 +527,7 @@ A guide covering Bash/PowerShell scripting languages including the applications 
 [Back to the Top](https://github.com/mikeroyal/Bash-PowerShell-Guide#table-of-contents)
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/45159366/118413013-01e09100-b652-11eb-95a9-fdb664687470.png">
+ <img src="https://user-images.githubusercontent.com/45159366/143783606-58f4f708-dfe3-40f5-b9e3-c737479dc320.png">
   <br />
 </p>
 
