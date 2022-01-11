@@ -1,1 +1,1 @@
-Code samples & snippets coming soon!
+PowerShell code samples & snippets coming soon!
